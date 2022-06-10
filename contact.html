@@ -9,35 +9,91 @@
   <style>
     body {
       text-align: center;
+      margin: 60px auto;
+      max-width: 800px;
+    }
+    :root {
+      --primary-color: #f6689a;
+      --secondary-color: #f2f2f2;
+    }
+
+    .back-link {
+      color: var(--primary-color);
+    }
+    h1 {
+      font-size: 96px;
+      margin: 0;
+    }
+
+    h3 {
+      font-size: 24px;
+      opacity: 0.7;
+      margin: 0;
+    }
+
+    .main-info {
+      display: flex;
+      margin: 30px 0;
+    }
+
+    .part1,
+    .part2 {
+      text-align: center;
+      margin: 10px;
+      line-height: 1.5;
+      font-size: 18px;
+      padding: 20px;
+      background-color: var(--secondary-color);
+    }
+
+    #contact-me {
+      margin-top: 60px;
+    }
+
+    h2 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    .email-link {
+      margin: 0;
+      text-decoration: none;
+      color: var(--primary-color);
+      font-size: 24px;
     }
   </style>
   <body>
-    <a href="index.html"> Back to homepage </a>
+    <a href="index.html" class="back-link"> Back to homepage </a>
     <h1>About me</h1>
     <h3>Front-end developer from Kyiv, Ukraine</h3>
     <div class="main-info">
-      <div>
+      <p class="part1">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
         aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
         alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum. Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Numquam aperiam provident tempora? Cumque adipisci, non dolorem
-        quia, odit qui alias veniam excepturi rem dolor fugit dignissimos, sed
-        voluptatum blanditiis harum.
-      </div>
-      <div>
+        blanditiis harum. <br /><br />
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
         aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
         alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
-        blanditiis harum. Lorem ipsum dolor sit amet, consectetur adipisicing
-        elit. Numquam aperiam provident tempora? Cumque adipisci, non dolorem
-        quia, odit qui alias veniam excepturi rem dolor fugit dignissimos, sed
-        voluptatum blanditiis harum.
-      </div>
+        blanditiis harum.
+      </p>
+      <p class="part2">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+        blanditiis harum. <br />
+        <br />
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+        aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+        alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+        blanditiis harum.
+      </p>
     </div>
     <div id="contact-me">
       <h2>📮 Contact me</h2>
-      <a href="mailto:rybalka.yanina@gmail.com">rybalka.yanina@gmail.com</a>
+      <a href="mailto:rybalka.yanina@gmail.com" class="email-link"
+        >rybalka.yanina@gmail.com</a
+      >
     </div>
   </body>
 </html>
