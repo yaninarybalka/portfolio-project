@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #fc709b;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -91,6 +91,11 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.container {
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .container h2 {
