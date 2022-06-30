@@ -42,6 +42,9 @@ p {
   margin-top: 10px;
 }
 
+#project-description {
+  text-align: center;
+}
 .navigation-links {
   display: flex;
   margin-top: 40px;
