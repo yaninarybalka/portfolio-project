@@ -164,7 +164,7 @@ footer {
 
 footer a,
 .icon-links {
-  color: var(--primary-color);
+  color: black;
   font-size: 24px;
   transition: all 150ms ease-in-out;
   text-decoration: none;
@@ -175,9 +175,6 @@ footer a:hover,
   color: var(--primary-color);
 }
 
-.icon-links h4 {
-  color: black;
-}
 .about-me-info p {
   line-height: 1.7;
 }
