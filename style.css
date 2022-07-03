@@ -10,6 +10,18 @@
   }
 }
 
+@media (min-width: 765px) {
+  .showcase-img {
+    height: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .showcase-img {
+    height: 200px;
+  }
+}
+
 h1,
 h2,
 h3 {
